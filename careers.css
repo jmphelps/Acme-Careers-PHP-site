@@ -1,0 +1,85 @@
+@charset "UTF-8";
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #C96;
+}
+#wrapper {
+	display: block;
+	width: 90%;
+	margin-top: 0;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0 10px;
+}
+#header {
+	margin-top: 0;
+	padding: 8px;
+	color: #fff;
+	background: #C60;
+	border-top: #006 double 6px;
+	border-bottom: #006 double 6px;
+}
+#content {
+	background-color: #fff;
+	padding: 10px;
+	margin-top: 0px;
+	margin-bottom: 4px;
+}
+#footer {
+	color: #FFF;
+	border-top-width: medium;
+	border-top-style: solid;
+	border-top-color: #006;
+}
+
+.moveinput {
+	position: absolute;
+	left: 330px;
+}
+
+#sidebar {
+	width: 200px;
+	float: right:
+	border: #006;
+}
+
+#navmenu {
+	background: #006;
+	padding: 6px;
+	margin: 0;
+
+}
+#navmenu a {
+	text-decoration: none;
+	color: #fff;
+}
+
+td,th {
+	background-color: #eee;
+}
+
+.message {
+	background-color:#FC9;
+	border: 1px solid #066;
+	padding: 4px;
+}
+	
+
+.divButton {
+ 	border: 2px groove #003; 
+	background: #eee; 
+	padding: 2px; 
+	width: 150px;	
+	text-align: center;
+	margin: 4px;
+}
+
+.divButton a:link, .divButton a:visited {
+	text-decoration: none;
+	font-weight: bold;
+	color: #003;
+}
+
+.divButton a:hover {
+	color: #06F;
+}
